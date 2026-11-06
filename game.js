@@ -1221,19 +1221,6 @@ const TitleScene = {
     drawArena(g);
     g.fillStyle = "rgba(5,3,12,.55)";
     g.fillRect(0, 0, W, H);
-    // emblème dragon (original stylisé)
-    g.save(); g.translate(W / 2, 190);
-    g.rotate(Math.sin(S.time * 0.5) * 0.02);
-    g.shadowColor = "#ffd166"; g.shadowBlur = 30;
-    g.strokeStyle = "#ffd166"; g.lineWidth = 5;
-    g.beginPath(); g.arc(0, 0, 62, 0, TAU); g.stroke();
-    g.lineWidth = 8;
-    g.beginPath(); g.moveTo(-38, -26); g.quadraticCurveTo(-10, -52, 26, -40);
-    g.quadraticCurveTo(44, -20, 34, 8); g.quadraticCurveTo(20, 26, -4, 24);
-    g.quadraticCurveTo(-24, 22, -30, 4); g.quadraticCurveTo(-36, -8, -38, -26); g.stroke();
-    g.fillStyle = "#ff2a6d";
-    g.beginPath(); g.arc(26, -40, 5, 0, TAU); g.fill();
-    g.restore();
     sceneText(g, "MORTAL KOMBAT", W / 2, 310, 72, "#ffd166", { glow: "#ff2a6d" });
     sceneText(g, "— REMAKE NATIF · 1993 —", W / 2, 352, 16, "#cfc3f0");
     this.items.forEach((it, i) => {
