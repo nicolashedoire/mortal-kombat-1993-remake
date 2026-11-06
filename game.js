@@ -40,10 +40,13 @@ const urlQ = new URLSearchParams(location.search);
 /* ---------- bibliothèque de jeux (interface gaming) ---------- */
 const GAME_LIBRARY = [
   { id: "mk1", title: "Mortal Kombat", year: "1993", genre: "Combat", status: "playable",
+    cover: "assets/covers/mortal-kombat-1.png",
     desc: "Le tournoi Shaolin. Remake natif — moteur original, contrôles clavier." },
   { id: "mk2", title: "Mortal Kombat II", year: "1993", genre: "Combat", status: "soon",
+    cover: "assets/covers/mortal-kombat-2.png",
     desc: "Outworld vous attend… bientôt disponible dans la collection." },
   { id: "mk3", title: "Mortal Kombat 3", year: "1995", genre: "Combat", status: "soon",
+    cover: "assets/covers/mortal-kombat-3.png",
     desc: "La Terre est envahie… bientôt disponible dans la collection." },
 ];
 
@@ -1851,7 +1854,7 @@ function buildHub() {
     card.tabIndex = 0;
     const cover = makeCover(game, i);
     card.innerHTML = `
-      <div class="cover" style="background-image:url('${cover}')">
+      <div class="cover" style="background-image:url('${game.cover}'),url('${cover}');background-size:cover,cover;background-position:center,center;background-repeat:no-repeat,no-repeat">
         <div class="badge ${game.status === "playable" ? "playable" : "soon"}">${game.status === "playable" ? "jouable" : "bientôt"}</div>
       </div>
       <div class="meta">
