@@ -1,5 +1,9 @@
 # Mortal Kombat — game guide
 
+**Play online:** [Launch the game in your browser](https://nicolashedoire.github.io/mortal-kombat-1993-remake/).
+
+To play offline:
+
 Open **index.html** in a recent browser. Choose **Jouer** (Play) to see the controls before starting. Keep all the files in the same folder: the game requires no installation or internet connection.
 
 ## Controls

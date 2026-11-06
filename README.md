@@ -6,6 +6,8 @@
 
 **Enter the arena. Choose your fighter. Win the tournament.**
 
+## [▶ Play the game online](https://nicolashedoire.github.io/mortal-kombat-1993-remake/)
+
 [How to play](#getting-started) · [Controls](#controls) · [Fighters](#fighters) · [Special moves](#special-moves)
 
 <img src="docs/banner-mortal-kombat.png" alt="Mortal Kombat title over a torchlit stone temple arena" width="100%">
@@ -29,6 +31,10 @@ An unofficial tribute to the 1993 release of Mortal Kombat, built with **HTML, C
 > Some moves, animations and mechanics are simplified compared with the original game.
 
 ## Getting started
+
+**Play online:** [Launch Mortal Kombat in your browser](https://nicolashedoire.github.io/mortal-kombat-1993-remake/).
+
+To play offline:
 
 1. Download or clone this repository and keep its files together in the same folder.
 2. Open **`index.html`** in a modern browser.
