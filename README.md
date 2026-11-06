@@ -2,130 +2,130 @@
 
 # MORTAL KOMBAT
 
-### Remake amateur · Hommage à l'arcade · Jouable dans le navigateur
+### Arcade tribute · Playable in your browser
 
-**Entre dans l'arène. Choisis ton combattant. Remporte le tournoi.**
+**Enter the arena. Choose your fighter. Win the tournament.**
 
-[Comment jouer](#-lancer-le-jeu) · [Commandes](#-commandes) · [Combattants](#-les-combattants) · [Coups spéciaux](#-coups-spéciaux)
+[How to play](#getting-started) · [Controls](#controls) · [Fighters](#fighters) · [Special moves](#special-moves)
 
-<img src="assets/arenas/courtyard-modern.png" alt="Décor de l'arène : temple de pierre, torches et montagnes à la nuit tombée" width="100%">
+<img src="docs/banner-mortal-kombat.png" alt="Mortal Kombat title over a torchlit stone temple arena" width="100%">
 
-<sub>Le décor de l'arène présent dans le jeu.</sub>
+<sub>Artwork inspired by the arena used in the game.</sub>
 
 </div>
 
 ---
 
-## Le jeu en quelques mots
+## About the game
 
-Un hommage non officiel au Mortal Kombat de 1993, réécrit en **HTML, CSS et JavaScript** avec un moteur de combat Canvas. Le jeu fonctionne directement dans un navigateur récent, sans installation ni connexion Internet.
+An unofficial tribute to the 1993 release of Mortal Kombat, built with **HTML, CSS and JavaScript** and a Canvas fighting engine. Play directly in a modern browser, with no installation or internet connection required.
 
-- **Solo** : affronte trois adversaires contrôlés par l'ordinateur.
-- **Versus local** : deux joueurs s'affrontent sur le même clavier.
-- **Six combattants** aux sprites modernisés et coups spéciaux distincts.
-- **Ambiance arcade** : arène retravaillée, musiques et plusieurs sons issus des fichiers d'origine.
-- **Deux rounds gagnants** pour remporter un combat.
+- **Solo**: fight three computer-controlled opponents.
+- **Local versus**: two players share the same keyboard.
+- **Six fighters** with modernized sprites and distinct special moves.
+- **Arcade atmosphere**: a redesigned arena, music and several sounds from the original game files.
+- **Best of three rounds** to win each fight.
 
-> Cette adaptation est un projet amateur : certains mouvements, animations et mécanismes sont simplifiés par rapport au jeu original.
+> Some moves, animations and mechanics are simplified compared with the original game.
 
-## ▶ Lancer le jeu
+## Getting started
 
-1. Télécharge ou clone ce dépôt, puis conserve tous ses fichiers dans le même dossier.
-2. Ouvre **`index.html`** dans un navigateur récent.
-3. Choisis **Jouer**, consulte la fenêtre des commandes, puis valide.
-4. Sélectionne **SOLO** ou **VERSUS**, puis ton combattant.
+1. Download or clone this repository and keep its files together in the same folder.
+2. Open **`index.html`** in a modern browser.
+3. Choose **Jouer** (Play), review the controls and confirm.
+4. Select **SOLO** or **VERSUS**, then choose your fighter.
 
-Le jeu fonctionne hors ligne. La première interaction avec la page permet au navigateur d'activer le son ; si nécessaire, utilise le bouton **Activer le son** en bas de l'écran.
+The game works offline. Your first interaction with the page allows the browser to enable audio. If needed, click **Activer le son** (Enable sound) at the bottom of the screen. The game interface is currently in French.
 
-## 🎮 Commandes
+## Controls
 
-| Action | Joueur 1 | Joueur 2 · pavé numérique |
+| Action | Player 1 | Player 2 · numeric keypad |
 |:--|:--:|:--:|
-| Se déplacer | ← / → | 4 / 6 |
-| Sauter / s'accroupir | ↑ / ↓ | 8 / 2 |
-| Poing haut / poing bas | A / Z | 7 / 1 |
-| Pied haut / pied bas | E / C | 9 / 3 |
-| Bloquer | S | 5 |
+| Move | ← / → | 4 / 6 |
+| Jump / crouch | ↑ / ↓ | 8 / 2 |
+| High punch / low punch | A / Z | 7 / 1 |
+| High kick / low kick | E / C | 9 / 3 |
+| Block | S | 5 |
 
-Les lettres correspondent à celles du clavier, en **AZERTY** comme en **QWERTY**. Pour le joueur 2, active **Verr. Num** si nécessaire. Les touches ne sont pas encore personnalisables.
+The letter keys match the labels on **AZERTY** and **QWERTY** keyboards. Player 2 may need to enable **Num Lock**. Controls cannot yet be remapped.
 
-| Touche | Action |
+| Key | Action |
 |:--|:--|
-| **Entrée** | Valider ; depuis la pause, revenir au menu |
-| **Échap** | Mettre le combat en pause ou reprendre |
-| **H** | Afficher ou fermer l'aide |
-| **M** | Activer ou couper le son |
-| **↓ + poing haut** | Uppercut |
-| **Saut + poing ou pied** | Coup aérien |
+| **Enter** | Confirm; return to the menu from pause |
+| **Esc** | Pause or resume the fight |
+| **H** | Show or close help |
+| **M** | Toggle sound |
+| **↓ + high punch** | Uppercut |
+| **Jump + punch or kick** | Aerial attack |
 
-## 🥋 Les combattants
+## Fighters
 
 <div align="center">
 
 <table>
 <tr>
-<td align="center"><img src="assets/sprites-modern/scorpion/idle.png" alt="Sprite moderne de Scorpion" height="165"><br><b>SCORPION</b></td>
-<td align="center"><img src="assets/sprites-modern/subzero/idle.png" alt="Sprite moderne de Sub-Zero" height="165"><br><b>SUB-ZERO</b></td>
-<td align="center"><img src="assets/sprites-modern/reptile/idle.png" alt="Sprite moderne de Reptile" height="165"><br><b>REPTILE</b></td>
+<td align="center"><img src="assets/sprites-modern/scorpion/idle.png" alt="Modern Scorpion sprite" height="165"><br><b>SCORPION</b></td>
+<td align="center"><img src="assets/sprites-modern/subzero/idle.png" alt="Modern Sub-Zero sprite" height="165"><br><b>SUB-ZERO</b></td>
+<td align="center"><img src="assets/sprites-modern/reptile/idle.png" alt="Modern Reptile sprite" height="165"><br><b>REPTILE</b></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/sprites-modern/liukang/idle.png" alt="Sprite moderne de Liu Kang" height="165"><br><b>LIU KANG</b></td>
-<td align="center"><img src="assets/sprites-modern/kano/idle.png" alt="Sprite moderne de Kano" height="165"><br><b>KANO</b></td>
-<td align="center"><img src="assets/sprites-modern/raiden/idle.png" alt="Sprite moderne de Raiden" height="165"><br><b>RAIDEN</b></td>
+<td align="center"><img src="assets/sprites-modern/liukang/idle.png" alt="Modern Liu Kang sprite" height="165"><br><b>LIU KANG</b></td>
+<td align="center"><img src="assets/sprites-modern/kano/idle.png" alt="Modern Kano sprite" height="165"><br><b>KANO</b></td>
+<td align="center"><img src="assets/sprites-modern/raiden/idle.png" alt="Modern Raiden sprite" height="165"><br><b>RAIDEN</b></td>
 </tr>
 </table>
 
-<sub>Sprites utilisés dans le jeu ; chaque combattant possède plusieurs poses.</sub>
+<sub>Sprites used in the game; each fighter has several poses.</sub>
 
 </div>
 
-### Direction artistique
+### Art direction
 
-![Maquette de direction artistique : Scorpion et Sub-Zero dans un temple](docs/concept-arene.png)
+![Art direction concept showing Scorpion and Sub-Zero in a temple](docs/concept-arene.png)
 
-<sub>Maquette de conception : illustration de la direction visuelle, pas une capture du jeu.</sub>
+<sub>Concept artwork illustrating the visual direction; this is not a gameplay screenshot.</sub>
 
-## ⚡ Coups spéciaux
+## Special moves
 
-Les directions sont relatives au combattant : **avant** signifie vers l'adversaire ; **arrière** signifie s'en éloigner. Saisis les directions rapidement, puis appuie sur le coup indiqué.
+Directions are relative to the fighter: **forward** means toward your opponent; **back** means away from them. Enter the directions quickly, then press the indicated attack button.
 
-| Combattant | Coup | Commande |
+| Fighter | Move | Input |
 |:--|:--|:--|
-| Scorpion | Harpon | Arrière, arrière, poing bas |
-| Sub-Zero | Boule de glace | Bas, avant, poing bas |
-| Reptile | Crachat acide | Avant, avant, poing haut |
-| Liu Kang | Boule de feu | Avant, avant, poing haut |
-| Liu Kang | Pied volant | Avant, avant, pied haut |
-| Kano | Couteau | Arrière, avant, poing haut |
-| Raiden | Éclair | Bas, avant, poing bas |
+| Scorpion | Spear | Back, back, low punch |
+| Sub-Zero | Freeze ball | Down, forward, low punch |
+| Reptile | Acid spit | Forward, forward, high punch |
+| Liu Kang | Fireball | Forward, forward, high punch |
+| Liu Kang | Flying kick | Forward, forward, high kick |
+| Kano | Knife throw | Back, forward, high punch |
+| Raiden | Lightning bolt | Down, forward, low punch |
 
-Après le dernier K.O., le système **FINISH HIM** est une adaptation simplifiée : il suffit de saisir le coup spécial du vainqueur.
+After the final knockout, **FINISH HIM** uses a simplified mechanic: enter the winner's special move.
 
-## 🔊 Son et musique
+## Sound and music
 
-Les musiques du menu et des combats, les voix « Fight », « Finish Him », « Fatality » et certains impacts proviennent des fichiers du jeu d'origine. Les autres effets sont synthétisés. Utilise **M** ou le bouton **Son** pour les couper ou les réactiver.
+The menu and fight music, the “Fight”, “Finish Him” and “Fatality” voice lines, and some impact sounds come from the original game files. Other effects are synthesized. Press **M** or use the on-screen sound button to mute or restore audio.
 
-## 📁 Organisation du projet
+## Project structure
 
 ```text
-index.html                 Page et interface du jeu
-game.js                    Moteur de combat, scènes et commandes
-assets.js                  Sprites arcade intégrés en repli
-audio-assets.js            Sons intégrés
-assets/arenas/             Décor de l'arène
-assets/sprites-modern/     Poses des six combattants
-assets/audio/              Musiques du menu et du combat
-tools/                     Outils de préparation et d'extraction
+index.html                 Game page and interface
+game.js                    Fighting engine, scenes and controls
+assets.js                  Embedded arcade sprites used as a fallback
+audio-assets.js            Embedded sound effects
+assets/arenas/             Arena background
+assets/sprites-modern/     Poses for all six fighters
+assets/audio/              Menu and fight music
+tools/                     Asset preparation and extraction tools
 ```
 
-Les sprites modernes utilisent des cycles courts, et les touches ne sont pas encore configurables. Le projet est autonome pour jouer : les outils de `tools/` ne sont pas nécessaires au lancement.
+The modern sprites use short animation cycles, and controls cannot yet be customized. The game is self-contained: the tools in `tools/` are not needed to play.
 
-Ces outils expérimentaux supposent pour certains que les fichiers DOS se trouvent dans `~/Desktop/Mortal_Kombat_1993/MK/MK1` et que le projet est dans `~/Desktop/Mortal Kombat Remake`. Ils nécessitent Python et Pillow ; vérifie leurs chemins avant utilisation. En particulier, `build_assets.py` régénère des ressources et peut remplacer les sprites restaurés.
+Some of these experimental tools expect the DOS files at `~/Desktop/Mortal_Kombat_1993/MK/MK1` and the project at `~/Desktop/Mortal Kombat Remake`. They require Python and Pillow; check their paths before use. In particular, `build_assets.py` regenerates assets and can overwrite restored sprites.
 
-## Crédits et ressources
+## Credits and resources
 
-Hommage amateur et non officiel à **Mortal Kombat**. Les musiques, certaines voix et certains effets proviennent des fichiers de la version DOS originale fournis avec le projet de départ. Les sprites arcade de repli sont extraits de cette même version ; les images modernes sont des créations générées avec assistance IA. Les outils d'extraction uGRA/WrtNonZero s'appuient sur les travaux de [ReWolf](https://github.com/rwfpl/rewolf-mortal-kombat-viewer) et son [article technique](http://blog.rewolf.pl/blog/?p=1837). Les personnages, noms, musiques et autres éléments originaux appartiennent à leurs ayants droit respectifs ; aucune licence libre ne leur est attribuée ici.
+An unofficial tribute to **Mortal Kombat**. The music, some voices and some effects come from the original DOS game files supplied with the source project. The fallback arcade sprites were extracted from the same version; the modern images were generated with AI assistance. The uGRA/WrtNonZero extraction tools build on [ReWolf's work](https://github.com/rwfpl/rewolf-mortal-kombat-viewer) and [technical article](http://blog.rewolf.pl/blog/?p=1837). Characters, names, music and other original elements belong to their respective rights holders; no open-source license is granted for those assets here.
 
-Le port de l'extracteur `tools/ugra_extract.py` indique une licence LGPL version 3 ou ultérieure ; les textes [LGPL 3.0](LICENSES/LGPL-3.0.txt) et [GPL 3.0](LICENSES/GPL-3.0.txt), à laquelle elle renvoie, sont inclus. Cette mention ne s'applique pas aux ressources du jeu d'origine.
+The `tools/ugra_extract.py` extractor port specifies LGPL version 3 or later; the [LGPL 3.0](LICENSES/LGPL-3.0.txt) and the [GPL 3.0](LICENSES/GPL-3.0.txt), to which it refers, are included. This notice does not apply to the original game assets.
 
-Pour les instructions détaillées en français, consulte aussi [LISEZ-MOI.md](LISEZ-MOI.md).
+For more detailed instructions, see the [game guide](GAME_GUIDE.md).
